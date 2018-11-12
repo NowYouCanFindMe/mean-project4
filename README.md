@@ -1,27 +1,33 @@
 # Project4
+Site in Progress [Live Demo](https://silly-swanson-f33f6c.netlify.com/) 
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.0.5.
 
-## Development server
+1. Create a new Angular File 
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+```javascript 
+cd <your-projects-folder>
+ng new project4
+cd project4
+```
 
-## Code scaffolding
+When prompted select `yes` to, **`‘Would you like to add Angular Routing?’`**
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Next Select `css` to **`‘Which stylesheet format would you like to use?’`**
 
-## Build
+2. Start up the development server
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+`npm start`
 
-## Running unit tests
+Open up your favorite web browser and go to: `http://localhost:4200/`
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+3. Let us architect our application by using encapsulated components
 
-## Running end-to-end tests
+Let us generate the files by typing 
+`ng g component page`
+Into the Terminal
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+4. Some packages we will use include:
 
-## Further help
+`npm i --save @angular/material @angular/animations`
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+`npm i --save @angular/cdk`
